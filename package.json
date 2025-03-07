@@ -2,7 +2,7 @@
   "name": "ruoyi-ui-merge",
   "version": "3.8.3",
   "description": "ruoyi-mall商城管理系统",
-  "author": "若依",
+  "author": "思渊",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",

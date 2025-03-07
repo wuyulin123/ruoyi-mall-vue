@@ -39,21 +39,21 @@ http://mall.ichengle.top
 <img src="doc/小程序演示.jpg" width="200px">
 <img src="doc/h5演示.png" width="200px">
 
-## CSDN若依技术专栏
+## CSDN思渊技术专栏
 - 常见问题：https://blog.csdn.net/qq_27575627/category_12336113.html
 - 后端技术：https://blog.csdn.net/qq_27575627/category_12331868.html
 - 前端技术：https://blog.csdn.net/qq_27575627/category_12331867.html
 - 运维：https://blog.csdn.net/qq_27575627/category_12332546.html
 
-## 若依mall简介
-若依是一套全部开源的快速开发平台，毫无保留给个人及企业免费使用。我们在此基础上开发了ruoyi-mall。希望能给做商城的朋友减轻工作量。
+## 思渊mall简介
+思渊是一套全部开源的快速开发平台，毫无保留给个人及企业免费使用。我们在此基础上开发了ruoyi-mall。希望能给做商城的朋友减轻工作量。
 * 前端采用Vue、Element UI（ant design 正在开发中）。
 * 后端采用Spring Boot、Spring Security、Redis & Jwt。
 * 权限认证使用Jwt，支持多终端认证系统。
 * 支持加载动态权限菜单，多方式轻松权限控制。
 * 高效率开发，使用代码生成器可以一键生成前后端代码。
 
-## 若依mall功能
+## 思渊mall功能
 1. 首页：
 2. PMS商品管理：
 3. UMS会员管理：

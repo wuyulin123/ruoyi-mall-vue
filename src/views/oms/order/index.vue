@@ -411,7 +411,7 @@ export default {
     };
   },
   async created() {
-    const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://mall.ichengle.top/order/order', 'ruoyi-mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
+    const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://mall.siyuanedu.top/order/order', 'ruoyi-mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
     this.show = res;
     if (res) {
       const {phone, status, today} = this.$route.query

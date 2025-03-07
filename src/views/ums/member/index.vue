@@ -235,7 +235,7 @@ export default {
   methods: {
     async confirmOk(success) {
       if (success) {
-        const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://mall.ichengle.top/member/member', 'ruoyi-mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
+        const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://mall.siyuanedu.top/member/member', 'ruoyi-mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
         this.show = res;
         if (res) {
           this.getList();
