@@ -118,7 +118,6 @@
       />
     </InBody>
     </div>
-    <SeeAdsComponent ref="seeAdsComponentRef" v-if="!show" @confirmOk="confirmOk"/>
     <!--  统计  -->
     <el-dialog :title="statisticsObj.title" :visible.sync="statisticsObj.open" width="500px" append-to-body>
       <el-descriptions direction="vertical" :column="2" border>
@@ -233,15 +232,15 @@ export default {
     ...mapGetters(['userId']),
   },
   methods: {
-    async confirmOk(success) {
-      if (success) {
-        const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://www.siyuanedu.top/member/member', 'mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
-        this.show = res;
-        if (res) {
-          this.getList();
-        }
-      }
-    },
+    // async confirmOk(success) {
+    //   if (success) {
+    //     const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://www.siyuanedu.top/member/member', 'mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
+    //     this.show = res;
+    //     if (res) {
+    //       this.getList();
+    //     }
+    //   }
+    // },
     showUpdateMark(record){
       this.remarkModal = {
         visible: true,

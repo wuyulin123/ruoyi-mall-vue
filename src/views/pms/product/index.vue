@@ -119,7 +119,6 @@
         />
       </InBody>
     </div>
-<!--    <SeeAdsComponent ref="seeAdsComponentRef" v-if="!show" @confirmOk="confirmOk"/>-->
 
   </div>
 </template>
@@ -182,15 +181,6 @@ export default {
     ...mapGetters(['userId']),
   },
   methods: {
-    async confirmOk(success) {
-      if (success) {
-        const res = await isStarRepo('zccbbg', 'RuoYi-Mall', this.userId, 'https://www.siyuanedu.top/pms/product', 'ruoyi-mall-商城', 'https://gitee.com/zccbbg/RuoYi-Mall')
-        this.show = res;
-        if (res) {
-          this.getList();
-        }
-      }
-    },
     /** 查询商品信息列表 */
     getList() {
       this.loading = true;

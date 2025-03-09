@@ -415,6 +415,7 @@ export default {
     this.show = res;
     if (res) {
       const {phone, status, today} = this.$route.query
+      console.log(phone, status, today)
       if (phone) {
         this.queryParams.userPhone = phone
       }
