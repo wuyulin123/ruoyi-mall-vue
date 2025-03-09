@@ -11,9 +11,6 @@
       <right-panel>
         <settings />
       </right-panel>
-      <div id="footer-global" :style="{left: !sidebar.opened ? '54px' : '200px'}">
-        <p class="bolder-font large-tip">技术支持</p>
-      </div>
     </div>
   </div>
 </template>
